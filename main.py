@@ -1,28 +1,37 @@
 import turtle
+
 turtle.register_shape("quipu-sewing.gif")
 
 # set environment
 screen = turtle.getscreen()
 screen.bgcolor("black")
+turtle.penup()
+turtle.pen(pencolor="white")
+turtle.goto(0, 300)
+turtle.write("Quipu Simulator", True, align="center", font=("Arial", 50, "bold"))
+
+#user input
+#first_strand_color = screen.textinput("Select Product", "What product are you accounting for?")
+first_strand_color = "red"
 
 # configure pen
+turtle.pendown()
 hand = turtle.Turtle()
-#hand.hideturtle()
-hand.pen(pencolor="white", pensize=2, speed=1)
+hand.pen(pencolor="white", pensize=2, speed=10)
 hand.shape("quipu-sewing.gif")
+
 
 #drawing
 hand.circle(100,-90)
 hand.circle(100,180)
 hand.circle(100,-145)
-hand.pen(pencolor="red", pensize=2, speed=1)
-hand.goto(-140, -10)
+hand.pen(pencolor=first_strand_color, pensize=2, speed=1)
+hand.goto(-140, -5)
+hand.color(first_strand_color)
+hand.dot(10)
+hand.penup()
 
+#second_strand_color = screen.textinput("Select Product", "What product are you accounting for?")
 
-#t.right(90)
-#t.forward(100)
-#t.left(90)
-#t.backward(200)
-#t.circle(200)
+turtle.getscreen()._root.mainloop()
 
-#turtle.getscreen()._root.mainloop()
