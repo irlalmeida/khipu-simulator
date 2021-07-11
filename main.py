@@ -1,6 +1,6 @@
 import turtle
 
-turtle.register_shape("src/quipu-sewing.gif")
+turtle.register_shape("src/khipu-sewing.gif")
 
 # set environment
 screen = turtle.getscreen()
@@ -11,7 +11,7 @@ turtle.hideturtle()
 turtle.penup()
 turtle.pen(pencolor="white")
 turtle.goto(0, 280)
-turtle.write("Quipu Simulator", True, align="center", font=("Panibo", 100, "normal"))
+turtle.write("Khipu Simulator", True, align="center", font=("Panibo", 100, "normal"))
 
 
 #user input
@@ -22,7 +22,7 @@ first_strand_color = "red"
 turtle.pendown()
 hand = turtle.Turtle()
 hand.pen(pencolor="white", pensize=2, speed=10)
-hand.shape("src/quipu-sewing.gif")
+hand.shape("src/khipu-sewing.gif")
 
 #drawing
 hand.circle(200,-90)
