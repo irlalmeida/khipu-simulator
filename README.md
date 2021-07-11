@@ -1,1 +1,1 @@
-# quipu-simulator
+# khipu-simulator
