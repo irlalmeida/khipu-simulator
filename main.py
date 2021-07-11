@@ -44,8 +44,21 @@ hand.fd(50)
 hand.penup()
 hand.seth(0)
 hand.goto(0,0)
+hand.color("green")
+hand.pendown()
+hand.seth(270)
+hand.fd(25)
+hand.begin_fill()
+hand.circle(4)
+hand.seth(270)
+hand.fd(4)
+hand.seth(270)
+hand.fd(4)
+hand.circle(4)
+hand.end_fill()
+hand.fd(50)
+
 
 #second_strand_color = screen.textinput("Select Product", "What product are you accounting for?")
 
 #turtle.getscreen()._root.mainloop()
-
