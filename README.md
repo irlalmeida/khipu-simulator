@@ -5,5 +5,5 @@ The khipu is a device used by the Inka empire during its rule, for accounting qu
     python main.py
 
 ## References studied for the development of this project:
-Urton, G. (2017). _Inka History in Knots: Reading Khipus as Primary Sources_. University of Texas Press.
+Urton, G. (2017). _Inka History in Knots: Reading Khipus as Primary Sources_. University of Texas Press.  
 Hyland, S. (2017). Writing with twisted cords: The inscriptive capacity of andean khipus. _Current Anthropology_, _58_(3), 412-419.
