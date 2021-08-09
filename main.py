@@ -4,6 +4,7 @@ turtle.register_shape("src/khipu-sewing.gif")
 
 # set environment
 screen = turtle.getscreen()
+screen.setup (width=.9, height=.95)
 screen.bgcolor("black")
 
 #write title
@@ -61,4 +62,4 @@ hand.fd(50)
 
 #second_strand_color = screen.textinput("Select Product", "What product are you accounting for?")
 
-#turtle.getscreen()._root.mainloop()
+turtle.getscreen()._root.mainloop()
