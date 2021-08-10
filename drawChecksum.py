@@ -3,21 +3,13 @@ turtle.register_shape("src/khipu-sewing.gif")
 
 # set environment
 screen = turtle.getscreen()
-hand = turtle.Turtle()
 screen.title("Khipu Simulator")
 
-def makeCircle(angle):
-	hand.begin_fill()
-	hand.circle(4)
-	hand.seth(angle)
-	hand.fd(8)
-	hand.end_fill()
-
-def makeKnots(amount, space, angle):
-	while (amount > 0):
-		makeCircle(angle)
-		amount = amount - 1
-	hand.fd(space)
+W = "#EEEEEE"
+MB = "#673923"
+GG = "#575E4E"
+AB = "#A86540"
+NB = "#9E671D"
 
 def drawChecksum(x,y):
 
@@ -25,8 +17,30 @@ def drawChecksum(x,y):
 	screen.bgcolor("black")
 	turtle.pendown()
 	hand = turtle.Turtle()
-	hand.pen(pencolor="white", pensize=2, speed=10)
+	hand.pen(pencolor=W, pensize=2, speed=0)
 	hand.shape("src/khipu-sewing.gif")
+
+	turtle.hideturtle()
+	turtle.penup()
+	turtle.speed(0)
+	turtle.pen(pencolor=W)
+	turtle.sety(200)
+	turtle.write("UR275", True, align="center", font=("Panibo", 100, "normal"))
+
+
+	def makeCircle(angle):
+		hand.begin_fill()
+		hand.circle(4)
+		hand.seth(angle)
+		hand.fd(8)
+		hand.end_fill()
+
+	def makeKnots(amount, space, angle):
+		x = amount
+		while (x > 0):
+			makeCircle(angle)
+			x = x - 1
+		hand.fd(space)
 
 #main chord
 	hand.circle(200,-50)
@@ -34,10 +48,10 @@ def drawChecksum(x,y):
 	hand.circle(200,-100)
 
 # #fisrt strand
-	hand.pen(pencolor="brown", pensize=2, speed=1)
+	hand.pen(pencolor=W, pensize=2, speed=0)
 	hand.seth(220)
 	hand.fd(25)
-	hand.color("brown")
+	hand.color(W)
 #ten thousands
 	hand.fd(50)
 # #thousands
@@ -55,10 +69,10 @@ def drawChecksum(x,y):
 	hand.circle(200,-45)
 	hand.pendown()
 # #second strand
-	hand.pen(pencolor="brown", pensize=2, speed=1)
+	hand.pen(pencolor=NB, pensize=2, speed=0)
 	hand.seth(225)
 	hand.fd(25)
-	hand.color("brown")
+	hand.color(NB)
  #ten thousands
 	hand.seth(225)
 	hand.fd(50)
@@ -78,10 +92,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 # #third strand
-	hand.pen(pencolor="brown", pensize=2, speed=1)
+	hand.pen(pencolor=AB, pensize=2, speed=0)
 	hand.seth(230)
 	hand.fd(25)
-	hand.color("brown")
+	hand.color(AB)
 # #ten thousands
 	hand.seth(230)
 	hand.fd(100)
@@ -100,10 +114,10 @@ def drawChecksum(x,y):
 	hand.circle(200,-35)
 	hand.pendown()
 # #fourth strand
-	hand.pen(pencolor="brown", pensize=2, speed=1)
+	hand.pen(pencolor=GG, pensize=2, speed=0)
 	hand.seth(235)
 	hand.fd(25)
-	hand.color("brown")
+	hand.color(GG)
 # #ten thousands
 	hand.seth(235)
 	hand.fd(100)
@@ -123,10 +137,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 # #fifth strand
-	hand.pen(pencolor="brown", pensize=2, speed=1)
+	hand.pen(pencolor=AB, pensize=2, speed=0)
 	hand.seth(240)
 	hand.fd(25)
-	hand.color("brown")
+	hand.color(AB)
 # #ten thousands
 	hand.seth(240)
 	hand.fd(100)
@@ -146,10 +160,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 #sixth strand
-	hand.pen(pencolor="brown", pensize=2, speed=1)
+	hand.pen(pencolor=W, pensize=2, speed=0)
 	hand.seth(245)
 	hand.fd(25)
-	hand.color("brown")
+	hand.color(W)
 #ten thousands
 	hand.seth(245)
 	hand.fd(100)
@@ -169,10 +183,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 #seventh strand
-	hand.pen(pencolor="white", pensize=2, speed=1)
+	hand.pen(pencolor=W, pensize=2, speed=0)
 	hand.seth(250)
 	hand.fd(25)
-	hand.color("white")
+	hand.color(W)
 #ten thousands
 	hand.seth(250)
 	hand.fd(100)
@@ -192,10 +206,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 #eighth strand
-	hand.pen(pencolor="white", pensize=2, speed=1)
+	hand.pen(pencolor=NB, pensize=2, speed=0)
 	hand.seth(255)
 	hand.fd(25)
-	hand.color("white")
+	hand.color(NB)
  #ten thousands
 	hand.seth(255)
 	hand.fd(50)
@@ -215,10 +229,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 #nineth strand
-	hand.pen(pencolor="white", pensize=2, speed=1)
+	hand.pen(pencolor=AB, pensize=2, speed=0)
 	hand.seth(260)
 	hand.fd(25)
-	hand.color("white")
+	hand.color(AB)
  #ten thousands
 	hand.seth(260)
 	hand.fd(50)
@@ -238,10 +252,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 #tenth strand
-	hand.pen(pencolor="white", pensize=2, speed=1)
+	hand.pen(pencolor=W, pensize=2, speed=0)
 	hand.seth(265)
 	hand.fd(25)
-	hand.color("white")
+	hand.color(W)
  #ten thousands
 	hand.seth(265)
 	hand.fd(50)
@@ -261,10 +275,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 #eleventh strand
-	hand.pen(pencolor="white", pensize=2, speed=1)
+	hand.pen(pencolor=NB, pensize=2, speed=0)
 	hand.seth(270)
 	hand.fd(25)
-	hand.color("white")
+	hand.color(NB)
  #ten thousands
 	hand.seth(270)
 	hand.fd(50)
@@ -284,10 +298,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 #twelveth strand
-	hand.pen(pencolor="white", pensize=2, speed=1)
+	hand.pen(pencolor=W, pensize=2, speed=0)
 	hand.seth(275)
 	hand.fd(25)
-	hand.color("white")
+	hand.color(W)
  #ten thousands
 	hand.seth(275)
 	hand.fd(50)
@@ -307,10 +321,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 #thirteenth strand
-	hand.pen(pencolor="grey", pensize=2, speed=1)
+	hand.pen(pencolor=W, pensize=2, speed=0)
 	hand.seth(280)
 	hand.fd(25)
-	hand.color("grey")
+	hand.color(W)
  #ten thousands
 	hand.seth(280)
 	hand.fd(50)
@@ -330,10 +344,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 #fourteenth strand
-	hand.pen(pencolor="grey", pensize=2, speed=1)
+	hand.pen(pencolor=NB, pensize=2, speed=0)
 	hand.seth(285)
 	hand.fd(25)
-	hand.color("grey")
+	hand.color(NB)
  #ten thousands
 	hand.seth(285)
 	hand.fd(50)
@@ -353,10 +367,10 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 #fifteenth strand
-	hand.pen(pencolor="grey", pensize=2, speed=1)
+	hand.pen(pencolor=AB, pensize=2, speed=0)
 	hand.seth(290)
 	hand.fd(25)
-	hand.color("grey")
+	hand.color(AB)
  #ten thousands
 	hand.seth(290)
 	hand.fd(50)
@@ -377,20 +391,21 @@ def drawChecksum(x,y):
 	hand.pendown()
 
 #sixteenth strand
-	hand.pen(pencolor="grey", pensize=2, speed=1)
+	hand.pen(pencolor=W, pensize=2, speed=0)
 	hand.seth(295)
 	hand.fd(25)
-	hand.color("grey")
+	hand.color(W)
  #ten thousands
 	hand.seth(295)
 	hand.fd(50)
 # #thousands
-	makeKnots(6, 50, 295)
+	makeKnots(1, 50, 295)
 # #hundreds
-	makeKnots (1, 50, 295)
+	makeKnots (4, 50, 295)
  #decimals
-	makeKnots(7, 50, 295)
+	makeKnots(4, 50, 295)
 # #unities
-	makeKnots(4, 20, 295)
+	makeKnots(2, 20, 295)
 
-drawChecksum(0,0)
+	hand.hideturtle()
+

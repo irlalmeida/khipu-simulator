@@ -1,6 +1,7 @@
 import turtle
-from khipus import drawChecksum
-
+from drawChecksum import drawChecksum
+from drawCensus import drawCensus
+from drawRosetta import drawRosetta
 # set environment
 screen = turtle.getscreen()
 screen.title("Khipu Simulator")
@@ -17,6 +18,10 @@ turtle.write("Khipu Simulator", True, align="center", font=("Panibo", 100, "norm
 
 def khipu_1(x,y):
 	drawChecksum(0,0)
+def khipu_2(x,y):
+	drawCensus(0,0)
+def khipu_3(x,y):
+	drawRosetta(0,0)
 
 #configure buttons
 button_1 = turtle.Turtle()
@@ -39,6 +44,7 @@ button_3.sety(-140)
 button_3.shape("square")
 button_3.speed(0)
 button_3_pos = button_3.pos()
+button_3.onclick(khipu_3)
 button_4 = turtle.Turtle()
 button_4.shapesize(4, 12)
 button_4.sety(-240)
@@ -73,7 +79,7 @@ button_3_caption.penup()
 button_3_caption.speed(0)
 button_3_caption.pen(pencolor="black")
 button_3_caption.sety(-155)
-button_3_caption.write("storage", True, align="center", font=("Panibo", 20, "normal"))
+button_3_caption.write("rosetta", True, align="center", font=("Panibo", 20, "normal"))
 button_4_caption = turtle.Turtle()
 button_4_caption.hideturtle()
 button_4_caption.penup()
