@@ -17,7 +17,7 @@ turtle.write("Khipu Simulator", True, align="center", font=("Panibo", 100, "norm
 
 #user input
 #first_strand_color = screen.textinput("Select Product", "What product are you accounting for?")
-first_strand_color = "red"
+first_strand_color = "brown"
 
 # configure pen
 turtle.pendown()
