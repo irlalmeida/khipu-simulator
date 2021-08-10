@@ -3,15 +3,8 @@ turtle.register_shape("src/khipu-sewing.gif")
 
 # set environment
 screen = turtle.getscreen()
-screen.title("Khipu Simulator")
-screen.setup (width=.9, height=.95)
-screen.bgcolor("black")
-
-## configure pen
-turtle.pendown()
 hand = turtle.Turtle()
-hand.pen(pencolor="white", pensize=2, speed=10)
-hand.shape("src/khipu-sewing.gif")
+screen.title("Khipu Simulator")
 
 def makeCircle(angle):
 	hand.begin_fill()
@@ -27,6 +20,14 @@ def makeKnots(amount, space, angle):
 	hand.fd(space)
 
 def drawChecksum(x,y):
+
+	turtle.clearscreen()
+	screen.bgcolor("black")
+	turtle.pendown()
+	hand = turtle.Turtle()
+	hand.pen(pencolor="white", pensize=2, speed=10)
+	hand.shape("src/khipu-sewing.gif")
+
 #main chord
 	hand.circle(200,-50)
 	hand.circle(200,100)
@@ -391,3 +392,5 @@ def drawChecksum(x,y):
 	makeKnots(7, 50, 295)
 # #unities
 	makeKnots(4, 20, 295)
+
+drawChecksum(0,0)
