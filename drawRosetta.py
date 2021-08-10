@@ -208,7 +208,7 @@ def drawRosetta(x,y):
 #EIGHTH STRAND
 	hand.pen(pencolor=AB, pensize=2, speed=0)
 	hand.seth(255)
-	hand.fd(12)
+	hand.fd(15)
 	hand.color(AB)
 
 	hand.penup()

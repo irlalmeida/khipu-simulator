@@ -116,7 +116,7 @@ def drawCensus(x,y):
 # #fourth strand
 	hand.pen(pencolor=GG, pensize=2, speed=0)
 	hand.seth(235)
-	hand.fd(12)
+	hand.fd(15)
 	hand.color(GG)
 # #ten thousands
 	makeKnots(1, 50, 235)
@@ -138,7 +138,7 @@ def drawCensus(x,y):
 # #fifth strand
 	hand.pen(pencolor=W, pensize=2, speed=0)
 	hand.seth(240)
-	hand.fd(12)
+	hand.fd(15)
 	hand.color(W)
 # #ten thousands
 	makeKnots(1, 50, 240)
@@ -149,7 +149,7 @@ def drawCensus(x,y):
 # #decimals
 	makeKnots(4, 50, 240)
 # #unities
-	makeKnots(8, 70, 240)	
+	makeKnots(8, 20, 240)	
 
 	hand.penup()
 	hand.seth(0)
@@ -229,7 +229,7 @@ def drawCensus(x,y):
 #nineth strand
 	hand.pen(pencolor=AB, pensize=2, speed=0)
 	hand.seth(260)
-	hand.fd(12)
+	hand.fd(15)
 	hand.color(AB)
  #ten thousands
 	makeKnots(1, 50, 260)
@@ -251,7 +251,7 @@ def drawCensus(x,y):
 #tenth strand
 	hand.pen(pencolor=W, pensize=2, speed=0)
 	hand.seth(265)
-	hand.fd(12)
+	hand.fd(15)
 	hand.color(W)
  #ten thousands
 	makeKnots(1, 50, 265)
@@ -274,7 +274,7 @@ def drawCensus(x,y):
 	hand.pen(pencolor=MB, pensize=2, speed=0)
 	hand.seth(270)
 	hand.fd(25)
-	hand.color("white")
+	hand.color(MB)
  #ten thousands
 	hand.seth(270)
 	hand.fd(50)
@@ -342,7 +342,7 @@ def drawCensus(x,y):
 #fourteenth strand
 	hand.pen(pencolor=GG, pensize=2, speed=0)
 	hand.seth(285)
-	hand.fd(12)
+	hand.fd(15)
 	hand.color(GG)
  #ten thousands
 	makeKnots(1, 70, 285)
