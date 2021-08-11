@@ -29,3 +29,6 @@ Hyland, S. (2017). Writing with twisted cords: The inscriptive capacity of andea
 I used the color hashes from this other [repository](https://github.com/nebogeo/coding-with-knots) by Dave Griffiths aka [nebogeo](https://github.com/nebogeo)  
 
 [Khipu Field Guide](https://www.khipufieldguide.com/)
+<h1></h1>
+
+this README.md was inspired by [Appinha's](https://github.com/appinha/) README.md
