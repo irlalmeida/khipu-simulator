@@ -408,4 +408,3 @@ def drawChecksum(x,y):
 	makeKnots(2, 20, 295)
 
 	hand.hideturtle()
-

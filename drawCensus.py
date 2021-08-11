@@ -497,3 +497,5 @@ def drawCensus(x,y):
 	makeKnots(9, 50, 315)
 # #unities
 	makeKnots(2, 20, 315)
+
+	hand.hideturtle()

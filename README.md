@@ -1,10 +1,13 @@
-# khipu-simulator
+<h1 align="center"> khipu-simulator
+</h1>
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/irlalmeida/khipu-simulator?color=brown)
+<p align="center>
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/irlalmeida/khipu-simulator?color=brown" />
 ![Lines of code](https://img.shields.io/tokei/lines/github/irlalmeida/khipu-simulator?color=brown)
 ![GitHub last commit](https://img.shields.io/github/last-commit/irlalmeida/khipu-simulator)
+</p>
 
-## About the Khipu
+About the Khipu
 
 The khipu is a device used by the Inka empire during its rule, for accounting quantities of different resources,  such as population, food savings, tax, etc. There are also khipus that are considered to be narrative devices, and not only accounting devices, but the former have not yet been deciphered and will not be considered on the development of this project. This program written in Python will allow you to see three different pieces of different khipus
 
