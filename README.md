@@ -20,6 +20,8 @@ The **"Rosetta"** is the one the Urton theorises there is a written record by th
 <h2> System Requirements </h2>
 
     python 3.9.6
+    tcl 8.6.11-1
+
 
 
 <h2> How to run it </h2>
