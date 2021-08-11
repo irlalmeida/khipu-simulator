@@ -102,4 +102,4 @@ def drawMainScreen(x,y):
 	button_4_caption.write("credits", True, align="center", font=("Panibo", 20, "normal"))
 
 drawMainScreen(0,0)
-screen.mainloop()
+turtle.mainloop()
