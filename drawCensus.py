@@ -27,7 +27,7 @@ def drawCensus(x,y):
 	turtle.speed(0)
 	turtle.pen(pencolor=W)
 	turtle.sety(200)
-	turtle.write("UR011", True, align="center", font=("Panibo", 100, "normal"))
+	turtle.write("UR11", True, align="center", font=("Panibo", 100, "normal"))
 
 	def makeCircle(angle):
 		hand.begin_fill()

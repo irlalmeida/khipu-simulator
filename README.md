@@ -11,11 +11,11 @@
 
 The khipu is a device used by the Inka empire during its rule, for accounting quantities of different resources,  such as population, food savings, tax, etc. There are also khipus that are considered to be narrative devices, and not only accounting devices, but the former have not yet been deciphered and will not be considered on the development of this project. This program written in Python will allow you to see three different pieces of different khipus
 
-The one called **"Check Sum"** is an excert of a khipu found at the  Inkawasi sight which exemplifies the check sum system developed by the inca.
+The one called **"Check Sum"** (UR275) is an excert of a khipu found at the  Inkawasi sight which exemplifies the check sum system developed by the inca.
 
-The **"Census"** is an excert of a Khipu which, according to Gary Urton, was accounting for the population size of the Chachapoyas region, and recorded the collapse of the population after the arrival of the Spaniards.
+The **"Census"** (UR11) is an excert of a Khipu which, according to Gary Urton, was accounting for the population size of the Chachapoyas region, and recorded the collapse of the population after the arrival of the Spaniards.
 
-The **"Rosetta"** is the one Urton theorises there is a written record by the Spanish which relates to it. The khipu was found in the Santa Valley, and Urton believes that it records a "revisita", a government visit to account for the population of a region.
+The **"Rosetta"** (UR88) is the one Urton theorises there is a written record by the Spanish which relates to it. The khipu was found in the Santa Valley, and Urton believes that it records a "revisita", a government visit to account for the population of a region.
 
 <h2> System Requirements </h2>
 
