@@ -5,6 +5,7 @@ turtle.register_shape("src/khipu-sewing.gif")
 screen = turtle.getscreen()
 screen.title("Khipu Simulator")
 
+#color hashes
 W = "#EEEEEE"
 MB = "#673923"
 GG = "#575E4E"
