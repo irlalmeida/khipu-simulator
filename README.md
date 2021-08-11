@@ -16,6 +16,12 @@ The one called **"Check Sum"** is an excert of a khipu found at the  Inkawasi si
 The **"Census"** one is an excert of a Khipu which, according to Gary Urton, was recording the population size of the Chachapoyas region, and recorded the collapse of the population after the arrival of the Spanish.
 
 The **"Rosetta"** is the one the Urton theorises there is a written record by the Spanish which relates to the actual khipu found in the Santa Valley, that records a "revisita", a visit to account for the population of a region.
+
+<h2> System Requirements </h2>
+
+    python 3.9.6
+
+
 <h2> How to run it </h2>
 
     python main.py
