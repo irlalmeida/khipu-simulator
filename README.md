@@ -14,7 +14,10 @@
 	<span> · </span>
 	<a href="#how-to-run-it">How to run it</a>
 	<span> · </span>
-	<a href="#references-for-the-development-of-this-project">References</a>
+	<a href="#images">Images</a>
+	<span> · </span>
+	<a 
+	href="#references-for-the-development-of-this-project">References</a>
 </h3>
 
 ## About the Khipu 
