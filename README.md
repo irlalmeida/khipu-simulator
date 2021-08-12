@@ -7,7 +7,17 @@
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/irlalmeida/khipu-simulator" />
 </p>
 
-<h2> About the Khipu </h2>
+<h3 align="center">
+	<a href="#-about-the-khipu">About the Khipu</a>
+	<span> · </span>
+	<a href="#-system-requirements">System Requirements</a>
+	<span> · </span>
+	<a href="#-how-to-run-it">How to run it</a>
+	<span> · </span>
+	<a href="#-References-for-the-development-of-this-project">References</a>
+</h3>
+
+## About the Khipu 
 
 The khipu is a device used by the Inka empire during its rule, for accounting quantities of different resources,  such as population, food savings, tax, etc. There are also khipus that are considered to be narrative devices, and not only accounting devices, but the former have not yet been deciphered and will not be considered on the development of this project. This program written in Python will allow you to see three different pieces of different khipus
 
@@ -17,20 +27,20 @@ The **"Census"** (UR11) is an excert of a Khipu which, according to Gary Urton, 
 
 The **"Rosetta"** (UR88) is the one Urton theorises there is a written record by the Spanish which relates to it. The khipu was found in the Santa Valley, and Urton believes that it records a "revisita", a government visit to account for the population of a region.
 
-<h2> System Requirements </h2>
+## System Requirements
 
     python 3.9.6
     tk 8.6.11.1-1
     tcl 8.6.11-1
-	Panibo font (.oft included in /src)
+	Panibo font (.oft included in /includes)
 
 
 
-<h2> How to run it </h2>
+## How to run it 
 
     python main.py
 
-<h2> Images </h2>
+## Images
 
 ![khipu-menu](https://user-images.githubusercontent.com/27395209/129232931-9b780267-ea1b-4c9f-af01-246ee95f6a65.png)  
 ![ur275](https://user-images.githubusercontent.com/27395209/129233055-92292d75-1f77-4d22-94a3-17dea1d9af72.png)  
@@ -38,7 +48,7 @@ The **"Rosetta"** (UR88) is the one Urton theorises there is a written record by
 ![ur88](https://user-images.githubusercontent.com/27395209/129233091-667f1f7c-ac47-47d5-91a5-6694e1fc0c5b.png)  
 ![credits](https://user-images.githubusercontent.com/27395209/129233120-527de3ef-cbdc-4f03-9bd3-d6171fa4de68.png)  
 
-<h2> References for the development of this project </h2>
+## References for the development of this project
 
 Urton, G. (2017). _Inka History in Knots: Reading Khipus as Primary Sources_. University of Texas Press.  
 
