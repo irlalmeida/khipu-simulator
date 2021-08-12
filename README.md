@@ -1,20 +1,20 @@
 <h1 align="center"> khipu-simulator
-</h1>
 
 <p align="center">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/irlalmeida/khipu-simulator?color=brown" />
 	<img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/irlalmeida/khipu-simulator?color=brown" />
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/irlalmeida/khipu-simulator" />
 </p>
+</h1>
 
 <h3 align="center">
-	<a href="#-about-the-khipu">About the Khipu</a>
+	<a href="#about-the-khipu">About the Khipu</a>
 	<span> · </span>
-	<a href="#-system-requirements">System Requirements</a>
+	<a href="#system-requirements">System Requirements</a>
 	<span> · </span>
-	<a href="#-how-to-run-it">How to run it</a>
+	<a href="#how-to-run-it">How to run it</a>
 	<span> · </span>
-	<a href="#-References-for-the-development-of-this-project">References</a>
+	<a href="#references-for-the-development-of-this-project">References</a>
 </h3>
 
 ## About the Khipu 
