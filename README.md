@@ -30,6 +30,14 @@ The **"Rosetta"** (UR88) is the one Urton theorises there is a written record by
 
     python main.py
 
+<h2> Images </h2>
+
+![khipu-menu](https://user-images.githubusercontent.com/27395209/129232931-9b780267-ea1b-4c9f-af01-246ee95f6a65.png)  
+![ur275](https://user-images.githubusercontent.com/27395209/129233055-92292d75-1f77-4d22-94a3-17dea1d9af72.png)  
+![ur11](https://user-images.githubusercontent.com/27395209/129233079-c25aa5b1-823f-4c00-bf4e-2a37a7fac357.png)  
+![ur88](https://user-images.githubusercontent.com/27395209/129233091-667f1f7c-ac47-47d5-91a5-6694e1fc0c5b.png)  
+![credits](https://user-images.githubusercontent.com/27395209/129233120-527de3ef-cbdc-4f03-9bd3-d6171fa4de68.png)  
+
 <h2> References for the development of this project </h2>
 
 Urton, G. (2017). _Inka History in Knots: Reading Khipus as Primary Sources_. University of Texas Press.  
