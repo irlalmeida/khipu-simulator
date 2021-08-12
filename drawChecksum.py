@@ -1,5 +1,5 @@
 import turtle
-turtle.register_shape("src/khipu-sewing.gif")
+turtle.register_shape("includes/khipu-sewing.gif")
 
 # set environment
 screen = turtle.getscreen()
@@ -19,7 +19,7 @@ def drawChecksum(x,y):
 	turtle.pendown()
 	hand = turtle.Turtle()
 	hand.pen(pencolor=W, pensize=2, speed=0)
-	hand.shape("src/khipu-sewing.gif")
+	hand.shape("includes/khipu-sewing.gif")
 
 	turtle.hideturtle()
 	turtle.penup()
@@ -27,6 +27,9 @@ def drawChecksum(x,y):
 	turtle.pen(pencolor=W)
 	turtle.sety(200)
 	turtle.write("UR275", True, align="center", font=("Panibo", 100, "normal"))
+	turtle.setx(0)
+	turtle.sety(175)
+	turtle.write("chords 1 to 16 ", True, align="center", font=("Panibo", 30, "normal"))
 
 
 	def makeCircle(angle):
